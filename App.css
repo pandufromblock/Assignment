@@ -1,0 +1,103 @@
+/* App.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+/* Styling for input[type="file"] with accept=".pdf" */
+input[type="file"][accept=".pdf"] {
+    display: grid;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    align-items: center;
+    align-content: center;
+    margin-left: 30px;
+    margin-right:40px;
+    text-align: center; /* Hide the default file input */
+  }
+  
+  /* Style the custom file input button */
+  label.file-input-label {
+    display: inline-block;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the file input label on hover */
+  label.file-input-label:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
+  /* Hide the default file input, make it appear as a button */
+  label.file-input-label input[type="file"] {
+    display: none;
+  }
+  
+  
+  .pdf-preview {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .page-selection {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 50px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .download-link {
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
